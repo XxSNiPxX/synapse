@@ -1,0 +1,15 @@
+id: whatsapp
+url: http://localhost:29318
+as_token: CPE9NH6HdVPPbwQG2jr5lxfJTts7k1LiHSONgzp7Vpe3FDHWMO4GMx4vkyKY4K8O
+hs_token: ybwlTgGOWYqxxP0cQRMxDBhI1XmhKCF71MvbRG0atQqMIHL0Yv5OzpngUbvuWneO
+sender_localpart: 77q7ZVryGvQsaQOnIH95LRXgMQc9eU5h
+rate_limited: false
+namespaces:
+    users:
+        - regex: ^@whatsappbot:in2tech\.tech$
+          exclusive: true
+        - regex: ^@whatsapp_.*:in2tech\.tech$
+          exclusive: true
+de.sorunome.msc2409.push_ephemeral: true
+push_ephemeral: true
+
